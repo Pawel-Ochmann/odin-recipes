@@ -1,0 +1,52 @@
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    background: rgb(192,211,200);
+}
+body {
+    display:grid;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+ul {
+    display:grid;
+    justify-content: center;
+    gap:20px;
+}
+.links>li {
+    width:fit-content;
+    position:relative;
+    transition: 0.3s;
+}
+
+.links>li:hover {
+    color:rgb(36, 35, 35);
+    transform: scale(1.1);
+}
+div.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    margin: 50px 100px;
+}
+img {
+    grid-row: span 3;
+}
+
+a:hover {
+    color:black;
+}
+
+.ingredients {
+    margin: 50px 100px;
+}
+
+.steps {
+    margin: 0 300px 50px 300px;
+}
+
+a {
+    margin-bottom: 50px;
+}
